@@ -1,0 +1,18 @@
+{
+  "name": "hao-hoc-nodejs",
+  "version": "1.0.0",
+  "description": "Tôi sẽ là 1 lập trình viên chuyên nghiệp",
+  "main": "sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node sever.js"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "NhatHao",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.21.1"
+  }
+}

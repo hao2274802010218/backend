@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Trang Hào</title>
+      <style>
+        body {
+          font-family: Arial, sans-serif;
+          text-align: center;
+          margin-top: 50px;
+        }
+        h1 {
+          color: blue;
+        }
+        button {
+          text-align: center;
+          color: white;
+          background-color: cadetblue;
+          border: none;
+          font-weight: bold;
+          padding: 10px 20px;
+          cursor: pointer;
+          border-radius: 5px;
+        }
+        button:hover {
+          background-color: darkcyan;
+        }
+      </style>
+    </head>
+    <body>
+      <h1>Hào sẽ là lập trình viên chuyên nghiệp</h1>
+      <button onclick="goBack()">Quay lại trang /test</button>
+      <script>
+        function goBack() {
+          window.location.href = '/test';
+        }
+      </script>
+    </body>
+    </html>

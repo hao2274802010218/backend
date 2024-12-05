@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xin Chào</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    h1 {
+      color: red;
+    }
+    button {
+      text-align: center;
+      color: white;
+      background-color: cadetblue;
+      border: none;
+      font-weight: bold;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: darkcyan;
+    }
+  </style>
+</head>
+<body>
+  <h1>Chào mừng đến trang web của tôi</h1>
+  <!-- Thêm sự kiện onclick để chuyển hướng -->
+  <button onclick="redirectToHao()">Click me</button>
+
+  <script>
+    // Hàm để chuyển hướng đến địa chỉ http://localhost:3000/hao
+    function redirectToHao() {
+      window.location.href = 'http://localhost:3000/hao';
+    }
+  </script>
+</body>
+</html>
